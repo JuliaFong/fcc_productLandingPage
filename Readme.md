@@ -1,11 +1,11 @@
-#freeCodeCamp Product Landing Page
+# freeCodeCamp Product Landing Page
 
 To complete freeCodeCamps 300 hour HTML5 & CSS3 certification, making a front-end timeline is part of the requirment.
 
-###Languages used:
+### Languages used:
  HTML5, CSS3
 
- ###User Story
+ ### User Story
 
  * User Story #1: My product landing page should have a header element with a corresponding id="header".
 
