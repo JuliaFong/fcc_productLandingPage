@@ -1,3 +1,8 @@
-li {
-    list-style-type: none;
-}
+body {
+    margin: auto;
+    font-family: georgia;
+  }
+  
+  li {
+      list-style: none;
+  }
