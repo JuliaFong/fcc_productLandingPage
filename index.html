@@ -8,8 +8,9 @@
   href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
   rel="stylesheet"  type='text/css'>
     <link rel="stylesheet" href="css/style.css">
-    <title>Steinway and Sons</title>
+    <h1 id="title">Steinway and Sons</h1>
 </head>
+
 <body>
     <header id="header">
         <div class="logo">
@@ -18,7 +19,7 @@
          <nav id="nav-bar">
             <ul>
                 <li>
-                    <a class="nav-link" href="#buyer's Guide">Buyer's Guide</a>
+                    <a class="nav-link" href="#buyer's guide">Buyer's Guide</a>
                  </li>
                   <li>
                     <a class="nav-link" href="#pianos">Pianos</a>
@@ -32,19 +33,19 @@
         <div class="container">
             <div id="stein" class="content">
                 <h1>Steinway and Sons</h1>
-                <p>For over 160 years, STEINWAY & SONS has been dedicated to
+                <p id="description">For over 160 years, STEINWAY & SONS has been dedicated to
                  making the finest pianos in the world. Our pioneering handcrafted methods
                  are still employed today to ensure our uncompromising standards of quality,
                   in turn ensuring that the STEINWAY remains the peerless
                  instrument of uncompromising expression.</p>
                     <img src="grand.jpg" alt="A black Steinway Grand Piano sits in the middle of an all white living room.">
-                        <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <form id="survey-form" action="https://www.freecodecamp.com/email-submit">
                             <input name="email" id="email" type="email" placeholder="Enter your email address" required />
                             <input id="submit" type="submit" value="Get more information" />
                         </form>
             </div>
             <div id="info">
-                <h1>Experience Spirio</h1>
+                <h1 id="spirio">Experience Spirio</h1>
                 <h4> THE WORLD’S finest HIGH-RESOLUTION PLAYER PIANO</h4>
                 <p> A masterpiece of artistry and engineering in your home, 
                     SPIRIO enables you to enjoy performances captured by great pianists — played with such nuance,
@@ -66,13 +67,50 @@
             <div class="icons">
                     <img src="https://img.icons8.com/ios-filled/50/000000/concert-day.png">
             </div>
-            <h2 class="showroom">Steinway Showrooms</h2>
+            <h2 id="pianos">Steinway Showrooms</h2>
             <p>Click here to submit an application to browse a Steinway for your home.</p>
         </div>
-        <section id="why-steinway">
+        <section id="buyer's guide">
+            <div id="buyers">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/562HAkJMK9I"
                  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                  allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="products">
+            <div class="products" id="baby">   
+                <div class="types">  Baby Grand Piano</div>
+                <h2>Starting at $1600</h2>
+                <ul>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ul>
+                <button class="btn">View</button>
+            </div>
+            <div class="products" id="grand">
+                <div class="types">Grand Piano</div>
+                <h2>Starting at $2000</h2>
+                <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                    <button class="btn">View</button>
+            </div>
+            <div class="products">
+                <div class="types">Spirio</div>
+                <h2>Please inquire about price</h2>
+                <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                    <button class="btn">View</button>
+            </div>
         </section>
 
         <footer>
