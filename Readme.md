@@ -36,3 +36,9 @@ To complete freeCodeCamps 300 hour HTML5 & CSS3 certification, making a front-en
 * User Story #14: My product landing page should have at least one media query.
 
 * User Story #15: My product landing page should utilize CSS flexbox at least once.
+
+# Learning goals
+* Practice following user stories and guidelines
+* Review HTML5 and CSS3
+* Learn how to make a basic product page
+* Review how to add a video and render it using HTML5
